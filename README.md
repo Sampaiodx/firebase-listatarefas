@@ -1,20 +1,32 @@
-<<<<<<< HEAD
-# app_firebase
+Lista de Tarefas Flutter + Firebase
 
-A new Flutter project.
+Este é um projeto de atividade prática desenvolvido em **Flutter** integrado com **Firebase Firestore**, que permite:
 
-## Getting Started
+- Adicionar novas tarefas;
+- Visualizar tarefas cadastradas em tempo real;
+- Deletar tarefas.
 
-This project is a starting point for a Flutter application.
+## Tecnologias utilizadas
 
-A few resources to get you started if this is your first Flutter project:
+- **Flutter** (framework mobile e web)
+- **Firebase Firestore** (banco de dados em tempo real)
+- **Firebase Core** (configuração e inicialização do Firebase)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Como rodar o projeto
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# listatarefas-firebase
->>>>>>> 31ee6c979b667a34663627c7c7430cb2f3d496bd
+1. Clone o repositório:  
+   ```bash
+   git clone https://github.com/Sampaiodx/firebase-listatarefas.git
+   cd firebase-listatarefas
+   flutter pub get
+   flutter run -d chrome
+
+## Funcionalidades
+
+O app inicializa o Firebase corretamente.
+Permite adicionar tarefas com status padrão pendente.
+Atualiza a lista em tempo real usando StreamBuilder.
+
+Permite deletar tarefas existentes.
+
+Banco Firestore protegido com regras básicas para leitura/escrita.
