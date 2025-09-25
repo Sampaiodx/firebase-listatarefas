@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # app_firebase
 
 A new Flutter project.
@@ -14,3 +15,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# listatarefas-firebase
+>>>>>>> 31ee6c979b667a34663627c7c7430cb2f3d496bd
